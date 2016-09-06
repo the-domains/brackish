@@ -1,14 +1,26 @@
-layout_spectrum: 0.7704677889123559
-typography_spectrum: 0.5009927724022418
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.2267108673695475
   brandStrength: 0.09450637898407876
   lightness: 0.9310200230684131
-  saturation: 0.2267108673695475
-  rhythmicContrast: 0.6540634927805513
   brandColors:
-    - '#595241'
-    - '#B8AE9C'
-    - '#FFFFFF'
-    - '#ACCFCC'
-    - '#8A0917'
+    - '#17182C'
+    - '#613738'
+    - '#C7B795'
+    - '#7D6F6A'
+    - '#FCFDDC'
+  rhythmicContrast: 0.6540634927805513
+typography_spectrum: 0.5009927724022418
+layout_spectrum: 0
 name: Brackish
